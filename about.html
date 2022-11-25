@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me-Mohadeseh Moradian</title>
+    <title>About me - Mohadeseh Moradian</title>
+    <meta
+      name="description"
+      content="About Mohadeseh, front-end developer based in Iran"
+    />
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -18,12 +22,14 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
     <nav id="navbar" class="navbar navbar-expand-lg bg-light">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Mohadeseh Moradian</a>
+        <a class="navbar-brand" href="/" title="Mohadeseh Moradian"
+          >Mohadeseh Moradian</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -37,9 +43,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            <a class="nav-link active" href="about.html">About me</a>
-            <a class="nav-link" href="about.html#contact">Contact me</a>
+            <a class="nav-link" aria-current="page" href="/" title="home"
+              >Home</a
+            >
+            <a class="nav-link active" href="/about.html" title="about"
+              >About me</a
+            >
+            <a class="nav-link" href="/about.html#contact" title="contact"
+              >Contact me</a
+            >
           </div>
         </div>
       </div>
@@ -58,22 +70,22 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="https://31ukq.codesandbox.io/images/yoga.png"
+            src="/images/yoga.png"
             alt="yoga"
             class="img-fluid rounded shadow p-2"
           />
         </div>
         <div class="col-sm-4">
           <img
-            src="https://31ukq.codesandbox.io/images/weather.png"
-            alt="yoga"
+            src="/images/weather.png"
+            alt="weather app"
             class="img-fluid rounded shadow p-2"
           />
         </div>
         <div class="col-sm-4">
           <img
-            src="https://31ukq.codesandbox.io/images/yogurt.png"
-            alt="yoga"
+            src="/images/yogurt.png"
+            alt="yogurt"
             class="img-fluid rounded shadow p-2"
           />
         </div>
@@ -85,6 +97,7 @@
         href="mailto:m.moradi6588@gmail.com"
         target="_blank"
         class="email-link"
+        title="email"
       >
         m.moradi6588@gmail.com
       </a>
